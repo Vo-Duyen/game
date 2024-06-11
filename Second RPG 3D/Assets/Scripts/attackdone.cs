@@ -19,7 +19,7 @@ public class attackdone : StateMachineBehaviour
     //OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.gameObject.SendMessage("onIsAttack2", SendMessageOptions.DontRequireReceiver);
+        animator.gameObject.SendMessage("onIsAttack", SendMessageOptions.DontRequireReceiver);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

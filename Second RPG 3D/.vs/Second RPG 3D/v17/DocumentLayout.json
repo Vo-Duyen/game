@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\",
+  "WorkspaceRootPath": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|c:\\users\\vo_duyen\\documents\\project game unity\\second rpg 3d\\assets\\scripts\\slimeai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|c:\\users\\vo_duyen\\desktop\\game github\\game\\second rpg 3d\\assets\\scripts\\slimeai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slimeai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\assets\\scripts\\grass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\slimeattackdone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\slimeattackdone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\scripts\\attackdone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attackdone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\scripts\\grass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,57 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "slimeAttackDone.cs",
+              "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\slimeAttackDone.cs",
+              "RelativeDocumentMoniker": "Assets\\slimeAttackDone.cs",
+              "ToolTip": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\slimeAttackDone.cs",
+              "RelativeToolTip": "Assets\\slimeAttackDone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:48:21.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "attackdone.cs",
+              "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\attackdone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\attackdone.cs",
+              "ToolTip": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\attackdone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\attackdone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:20:33.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\Assets\\Scripts\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T00:38:59.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SlimeAI.cs",
-              "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\Assets\\Scripts\\SlimeAI.cs",
+              "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\SlimeAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SlimeAI.cs",
-              "ToolTip": "C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\Assets\\Scripts\\SlimeAI.cs",
+              "ToolTip": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\SlimeAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\SlimeAI.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAUwEAAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T01:15:22.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwIIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:42:48.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Grass.cs",
-              "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\Assets\\Scripts\\Grass.cs",
+              "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\Grass.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Grass.cs",
-              "ToolTip": "C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\Assets\\Scripts\\Grass.cs",
+              "ToolTip": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\Grass.cs",
               "RelativeToolTip": "Assets\\Scripts\\Grass.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T00:27:51.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\Vo_Duyen\\Documents\\Project Game Unity\\Second RPG 3D\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAA7wDcAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T16:42:48.518Z"
             }
           ]
         }

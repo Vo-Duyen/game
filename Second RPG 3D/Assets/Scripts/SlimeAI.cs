@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
+using System.Diagnostics.Tracing;
 
 public class SlimeAI : MonoBehaviour
 {
     private GameManager _gm;
 
     [Header("Config Health Bar")]
-    public const float HP = 20;
+    public const float HP = 10;
     private float hp = HP;
     private Animator amin;
 
@@ -22,6 +23,9 @@ public class SlimeAI : MonoBehaviour
     private Vector3 destination;
     private int idWayPoint;
     private bool isWalk;
+    private bool isAlert;
+    private bool isPlayerVisible;
+    private bool isAttack;
 
     // Start is called before the first frame update
     void Start()
@@ -48,29 +52,28 @@ public class SlimeAI : MonoBehaviour
             isWalk = false;
         }
         amin.SetBool("isWalk", isWalk);
-        //if (!isWalk)
-        //    amin.SetTrigger("Attack");
+        amin.SetBool("isAlert", isAlert);
     }
     IEnumerator timeIsDie()
     {
         yield return new WaitForSeconds(1.7f);
         Destroy(gameObject);
     }
-    private void GetHit(float n)
+    private void GetHit(int amount)
     {
-        hp -= n;
-        if (hp <= 0 )
+        hp -= amount;
+        if (hp > 0)
+        {
+            sliderHealtBar.value = hp / HP;
+            amin.SetTrigger("GetHit");
+            ChangeState(enemyState.FURY);
+        }
+        else
         {
             amin.SetTrigger("Die");
             _gm.Plus();
             sliderHealtBar.value = 0;
             StartCoroutine(timeIsDie());
-        }
-        else
-        {
-            sliderHealtBar.value = hp / HP;
-            amin.SetTrigger("GetHit");
-            ChangeState(enemyState.FURY);
         }
     }
     private void StateManager()
@@ -80,12 +83,25 @@ public class SlimeAI : MonoBehaviour
             case enemyState.IDLE:
                 break;
             case enemyState.ALERT:
+                LookAt();
                 break;
             case enemyState.FOLLOW:
-                break;
-            case enemyState.FURY:
+                LookAt();
                 destination = _gm.player.position;
                 agent.destination = destination;
+                if (agent.remainingDistance <= _gm.distanceToAttack)
+                {
+                    Attack();
+                }
+                break;
+            case enemyState.FURY:
+                LookAt();
+                destination = _gm.player.position;
+                agent.destination = destination;
+                if (agent.remainingDistance <= _gm.distanceToAttack)
+                {
+                    Attack();
+                }
                 break;
             case enemyState.PATROL:
                 break;
@@ -93,19 +109,46 @@ public class SlimeAI : MonoBehaviour
                 break;
         }
     }
+
+    private void LookAt()
+    {
+        Vector3 lookDirecsion = (_gm.player.position - transform.position).normalized;
+        Quaternion lookRotation = Quaternion.LookRotation(lookDirecsion);
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, _gm.slimeLookAtSpeed * Time.deltaTime);
+    }
+
+    private void Attack()
+    {
+        if (!isAttack && isPlayerVisible)
+        {
+            amin.SetTrigger("isAttack");
+            isAttack = true;
+        }
+    }
+
+    void onAttack()
+    {
+        StartCoroutine("ATTACK");
+    }
+
     private void ChangeState(enemyState newState)
     {
         StopAllCoroutines();
-        state = newState;
-        //print(state);
-        switch (state)
+        isAlert = false;
+        switch (newState)
         {
             case enemyState.IDLE:
+                agent.stoppingDistance = 0;
                 destination = transform.position;
                 agent.destination = destination;
                 StartCoroutine("IDLE");
                 break;
             case enemyState.ALERT:
+                agent.stoppingDistance = 0;
+                destination = transform.position;
+                agent.destination = destination;
+                isAlert = true;
+                StartCoroutine("ALERT");
                 break;
             case enemyState.PATROL:
                 agent.stoppingDistance = 0;
@@ -116,12 +159,17 @@ public class SlimeAI : MonoBehaviour
                 break;
             case enemyState.FURY:
                 agent.stoppingDistance = _gm.distanceToAttack;
-                agent.stoppingDistance = 0.3f;
                 destination = _gm.player.position;
                 agent.destination = destination;
-                //print(destination);
                 break;
+            case enemyState.FOLLOW:
+                agent.stoppingDistance = _gm.distanceToAttack;
+                isAttack = true;
+                StartCoroutine("FOLLOW");
+                isAttack = false;
+                break; 
         }
+        state = newState;
     }
     IEnumerator IDLE()
     {
@@ -131,8 +179,30 @@ public class SlimeAI : MonoBehaviour
     IEnumerator PATROL()
     {
         yield return new WaitUntil(() => agent.remainingDistance <= 0);
-        //yield return new WaitForSeconds(patrolWaitTime);
-        stayStill(30);
+        stayStill(80);
+    }
+    IEnumerator ALERT()
+    {
+        yield return new WaitForSeconds(_gm.slimeAlertWaitTime);
+        if (isPlayerVisible)
+        {
+            ChangeState(enemyState.FOLLOW);
+        }
+        else
+        {
+            stayStill(10);
+        }
+    }
+    IEnumerator ATTACK()
+    {
+        yield return new WaitForSeconds(_gm.slimeAttackDelay);
+        isAttack = false;
+    }
+    IEnumerator FOLLOW()
+    {
+        yield return new WaitUntil(() => !isPlayerVisible);
+        yield return new WaitForSeconds(_gm.slimeAlertWaitTime);
+        stayStill(50);
     }
     private void stayStill(int check)
     {
@@ -149,4 +219,23 @@ public class SlimeAI : MonoBehaviour
     {
         return Random.Range(0, 100);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag.Equals("Player"))
+        {
+            isPlayerVisible = true;
+            if (state == enemyState.IDLE || state == enemyState.PATROL)
+            {
+                ChangeState(enemyState.ALERT);
+            }
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag.Equals("Player"))
+        {
+            isPlayerVisible = false;
+        }
+    }
+
 }

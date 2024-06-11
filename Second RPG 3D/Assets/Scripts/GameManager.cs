@@ -15,8 +15,11 @@ public class GameManager : MonoBehaviour
     public float slimeIdleWaitTime;
     public Transform player;
     public float distanceToAttack;
+    public float slimeAlertWaitTime;
+    public float slimeAttackDelay;
+    public float slimeLookAtSpeed;
 
-    public TextMeshPro tx;
+    public TMP_Text tx;
     // Start is called before the first frame update
     void Start()
     {

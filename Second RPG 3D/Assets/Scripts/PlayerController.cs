@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     public Transform hitBox;
     [Range(0.2f, 1f)]
     public float hitRange = 0.3f;
-    private bool isAttack2 = false;
+    private bool isAttack = false;
     public Collider[] hitInfor;
     public LayerMask hitMask;
     public float dmg = 1;
@@ -38,6 +38,50 @@ public class PlayerController : MonoBehaviour
     }
     // Update is called once per frame
     void Update()
+    {
+        SwapCamera();
+        SetAminWalk();
+        if (Input.GetMouseButtonDown(0) && !isAttack)
+        {
+            Attack();
+        }
+        ccl.Move(diracsion * movementSpeed * Time.deltaTime);
+    }
+
+    private void Attack()
+    {
+        attack2.Emit(1);
+        isAttack = true;
+        amin.SetTrigger("isAttack");
+        hitInfor = Physics.OverlapSphere(hitBox.position, hitRange, hitMask);
+        foreach (Collider c in hitInfor)
+        {
+            c.gameObject.SendMessage("GetHit", dmg, SendMessageOptions.DontRequireReceiver);
+        }
+    }
+    void onIsAttack()
+    {
+        isAttack = false;
+    }
+
+    private void SetAminWalk()
+    {
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+        diracsion = new Vector3(horizontal, 0f, vertical).normalized;
+        if (diracsion.magnitude > 0.1f)
+        {
+            float quay = Mathf.Atan2(diracsion.x, diracsion.z) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0f, quay, 0f);
+            amin.SetBool("isWalk", true);
+        }
+        else
+        {
+            amin.SetBool("isWalk", false);
+        }
+    }
+
+    private void SwapCamera()
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -52,69 +96,39 @@ public class PlayerController : MonoBehaviour
                 cam2.SetActive(false);
             }
         }
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-        diracsion = new Vector3(horizontal, 0f, vertical).normalized;
-        if (diracsion.magnitude > 0.1f)
-        {
-            float quay = Mathf.Atan2(diracsion.x, diracsion.z) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0f, quay, 0f);
-            amin.SetBool("isWalk", true);
-        }
-        else
-        {
-            amin.SetBool("isWalk", false);
-        }
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (isAttack2 == false)
-            {
-                attack2.Emit(1);
-                isAttack2 = true;
-            }
-            amin.SetTrigger("isAttack");
-            hitInfor = Physics.OverlapSphere(hitBox.position, hitRange, hitMask);
-            foreach (Collider c in hitInfor)
-            {
-                c.gameObject.SendMessage("GetHit", dmg, SendMessageOptions.DontRequireReceiver);
-            }
-        }
-        ccl.Move(diracsion * movementSpeed * Time.deltaTime);
     }
-    void onIsAttack2()
-    {
-        isAttack2 = false;
-    }
+
+
     private void OnDrawGizmosSelected()
     {
-        if (hitBox != null)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawSphere(hitBox.position, hitRange);
-        }
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(hitBox.position, hitRange);
     }
     IEnumerator timeIsDie()
     {
         yield return new WaitForSeconds(1.7f);
-        //Destroy(gameObject);
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
-    private void OnCollisionEnter(Collision collision)
+    void GetHit(int amount)
     {
-        if (collision.gameObject.tag.Equals("Slime"))
+        hp -= amount;
+        if (hp > 0)
         {
-            hp -= 1;
-            if (hp <= 0)
-            {
-                healthBar.value = 0;
-                amin.SetTrigger("die");
-                StartCoroutine(timeIsDie());
-            }
-            else
-            {
-                healthBar.value = hp / HP;
-                amin.SetTrigger("isAttack");
-            }
+            healthBar.value = (float) hp / HP;
+            amin.SetTrigger("getHit");
+        }
+        else
+        {
+            healthBar.value = 0f;
+            amin.SetTrigger("Die");
+            StartCoroutine(timeIsDie());
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Slime"))
+        {
+            GetHit(1);
         }
     }
 }
