@@ -1,6 +1,7 @@
 using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,7 +16,6 @@ public class PlayerController : MonoBehaviour
 
     [Header("Cameras")]
     public GameObject cam2;
-    private int cnt = 0;
 
     private Vector3 diracsion;
     private Animator amin;
@@ -39,7 +39,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SwapCamera();
         SetAminWalk();
         if (Input.GetMouseButtonDown(0) && !isAttack)
         {
@@ -80,25 +79,6 @@ public class PlayerController : MonoBehaviour
             amin.SetBool("isWalk", false);
         }
     }
-
-    private void SwapCamera()
-    {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            ++cnt;
-            cnt %= 2;
-            if (cnt == 1)
-            {
-                cam2.SetActive(true);
-            }
-            else
-            {
-                cam2.SetActive(false);
-            }
-        }
-    }
-
-
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
@@ -129,6 +109,17 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Slime"))
         {
             GetHit(1);
+        }
+        if (other.gameObject.CompareTag("cam"))
+        {
+            cam2.SetActive(true);
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("cam"))
+        {
+            cam2.SetActive(false);
         }
     }
 }
