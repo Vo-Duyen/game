@@ -70,10 +70,14 @@ public class SlimeAI : MonoBehaviour
         }
         else
         {
+            ChangeState(enemyState.DIE);
             amin.SetTrigger("Die");
-            _gm.Plus();
             sliderHealtBar.value = 0;
             StartCoroutine(timeIsDie());
+        }
+        if (hp == 0)
+        {
+            _gm.Plus();
         }
     }
     private void StateManager()
@@ -135,6 +139,7 @@ public class SlimeAI : MonoBehaviour
     {
         StopAllCoroutines();
         isAlert = false;
+        isAttack = true;
         switch (newState)
         {
             case enemyState.IDLE:
@@ -144,14 +149,14 @@ public class SlimeAI : MonoBehaviour
                 StartCoroutine("IDLE");
                 break;
             case enemyState.ALERT:
-                agent.stoppingDistance = 0;
+                agent.stoppingDistance = _gm.slimeStopDistance;
                 destination = transform.position;
                 agent.destination = destination;
                 isAlert = true;
                 StartCoroutine("ALERT");
                 break;
             case enemyState.PATROL:
-                agent.stoppingDistance = 0;
+                agent.stoppingDistance = _gm.slimeStopDistance;
                 idWayPoint = Random.Range(0, _gm.slimeWayPoints.Length);
                 destination = _gm.slimeWayPoints[idWayPoint].position;
                 agent.destination = destination;
@@ -164,11 +169,12 @@ public class SlimeAI : MonoBehaviour
                 break;
             case enemyState.FOLLOW:
                 agent.stoppingDistance = _gm.distanceToAttack;
-                isAttack = true;
+                //isAttack = true;
                 StartCoroutine("FOLLOW");
-                isAttack = false;
+                //isAttack = false;
                 break; 
         }
+        StartCoroutine("ATTACK");
         state = newState;
     }
     IEnumerator IDLE()
