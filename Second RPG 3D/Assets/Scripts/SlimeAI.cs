@@ -82,6 +82,10 @@ public class SlimeAI : MonoBehaviour
     }
     private void StateManager()
     {
+        if (_gm.gameState == GameState.DIE && (state == enemyState.ALERT || state == enemyState.FOLLOW || state == enemyState.FURY))
+        {
+            ChangeState(enemyState.IDLE);
+        }
         switch(state)
         {
             case enemyState.IDLE:
@@ -143,7 +147,7 @@ public class SlimeAI : MonoBehaviour
         switch (newState)
         {
             case enemyState.IDLE:
-                agent.stoppingDistance = 0;
+                agent.stoppingDistance = _gm.slimeStopDistance;
                 destination = transform.position;
                 agent.destination = destination;
                 StartCoroutine("IDLE");
@@ -172,7 +176,11 @@ public class SlimeAI : MonoBehaviour
                 //isAttack = true;
                 StartCoroutine("FOLLOW");
                 //isAttack = false;
-                break; 
+                break;
+            case enemyState.DIE:
+                destination = transform.position;
+                agent.destination = destination;
+                break;
         }
         StartCoroutine("ATTACK");
         state = newState;
@@ -238,6 +246,7 @@ public class SlimeAI : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
+        if (_gm.gameState == GameState.DIE) { return; }
         if (other.gameObject.tag.Equals("Player"))
         {
             isPlayerVisible = false;

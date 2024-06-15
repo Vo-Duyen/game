@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\scripts\\slimeai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|c:\\users\\vo_duyen\\desktop\\game github\\game\\second rpg 3d\\assets\\scripts\\slimeai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slimeai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|c:\\users\\vo_duyen\\desktop\\game github\\game\\second rpg 3d\\assets\\scripts\\rainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\scripts\\rainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7784F96-745D-C839-2602-11796CD5C997}|Assembly-CSharp.csproj|C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\assets\\scripts\\attackdone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RainManager.cs",
               "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\RainManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RainManager.cs",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Assets\\Scripts\\RainManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T10:45:48.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T10:45:48.456Z"
             },
             {
               "$type": "Document",
@@ -79,13 +78,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAqwGwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T00:38:59.782Z",
               "EditorCaption": ""
@@ -98,22 +97,23 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SlimeAI.cs",
               "ToolTip": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\SlimeAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\SlimeAI.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAAwKwAAAApAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAADwv1YAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T01:15:22.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\Vo_Duyen\\Desktop\\Game Github\\game\\Second RPG 3D\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAIwHAAAAAvAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAqwG8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T16:42:48.518Z"
+              "WhenOpened": "2024-05-28T16:42:48.518Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

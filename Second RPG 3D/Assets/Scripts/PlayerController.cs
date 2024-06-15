@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    private GameManager _gm;
     private CharacterController ccl;
     [Header("Config Player")]
     public float movementSpeed = 3f;
@@ -33,18 +34,25 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _gm = FindObjectOfType(typeof(GameManager)) as GameManager;
         ccl = GetComponent<CharacterController>();   
         amin = GetComponent<Animator>();
     }
     // Update is called once per frame
     void Update()
     {
+        if (_gm.gameState != GameState.GAMEPLAY) { return; }
         SetAminWalk();
+        Inputs();
+        ccl.Move(diracsion * movementSpeed * Time.deltaTime);
+    }
+
+    private void Inputs()
+    {
         if (Input.GetMouseButtonDown(0) && !isAttack)
         {
             Attack();
         }
-        ccl.Move(diracsion * movementSpeed * Time.deltaTime);
     }
 
     private void Attack()
@@ -87,7 +95,8 @@ public class PlayerController : MonoBehaviour
     IEnumerator timeIsDie()
     {
         yield return new WaitForSeconds(1.7f);
-        //gameObject.SetActive(false);
+        print("Die");
+        _gm.ChangeGameState(GameState.DIE);
     }
     void GetHit(int amount)
     {
@@ -100,7 +109,10 @@ public class PlayerController : MonoBehaviour
         else
         {
             healthBar.value = 0f;
-            amin.SetTrigger("Die");
+        }
+        if (hp == 0)
+        {
+            amin.SetTrigger("die");
             StartCoroutine(timeIsDie());
         }
     }

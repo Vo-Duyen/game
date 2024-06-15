@@ -7,10 +7,15 @@ using UnityEngine.Rendering.PostProcessing;
 
 public enum enemyState
 {
-    IDLE, ALERT, PATROL, FOLLOW, FURY, EXPLORE, DIE, 
+    IDLE, ALERT, PATROL, FOLLOW, FURY, EXPLORE, DIE
+}
+public enum GameState
+{
+    GAMEPLAY, DIE
 }
 public class GameManager : MonoBehaviour
 {
+    public GameState gameState;
     [Header("Slime AI")]
     public Transform[] slimeWayPoints;
     public float slimeIdleWaitTime;
@@ -98,5 +103,9 @@ public class GameManager : MonoBehaviour
                 postB.weight = 0;
                 break;
         }
+    }
+    public void ChangeGameState(GameState newState)
+    {
+        gameState = newState;
     }
 }
