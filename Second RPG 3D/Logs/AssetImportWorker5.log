@@ -1,0 +1,457 @@
+Using pre-set license
+Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 24277 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\New folder\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+E:/_game/Second RPG 3D
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+56658
+Successfully changed project path to: E:/_game/Second RPG 3D
+E:/_game/Second RPG 3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18464] Host "[IP] 10.10.21.131 [Port] 0 [Flags] 2 [Guid] 3014750731 [EditorId] 3014750731 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18464] Host "[IP] 10.10.21.131 [Port] 0 [Flags] 2 [Guid] 3014750731 [EditorId] 3014750731 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 123.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path E:/New folder/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/_game/Second RPG 3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'E:/New folder/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'E:/New folder/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/New folder/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/New folder/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/New folder/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: E:/New folder/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002568 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 80.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Domain Reload Profiling:
+	ReloadAssembly (719ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003285 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.252 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1252ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (955ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3713 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (1.3 MB). Loaded Objects now: 4169.
+Memory consumption went from 141.2 MB to 139.8 MB.
+Total: 3.695700 ms (FindLiveObjects: 0.338300 ms CreateObjectMapping: 0.119400 ms MarkObjects: 3.005300 ms  DeleteObjects: 0.231500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41187.097387 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/TurtleShell/Defend_TurtleShell_Anim.fbx
+  artifactKey: Guid(65b444fa8fd14c1c9fd5a23ee91ccb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/TurtleShell/Defend_TurtleShell_Anim.fbx using Guid(65b444fa8fd14c1c9fd5a23ee91ccb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd18c14bce69a68485364ebbc0f2a76') in 0.181246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/TurtleShell/SenseSomethingRT_TurtleShell_Anim.fbx
+  artifactKey: Guid(25c79772d5ff4896b07d0ddbcb0c9cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/TurtleShell/SenseSomethingRT_TurtleShell_Anim.fbx using Guid(25c79772d5ff4896b07d0ddbcb0c9cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38da9e6643355792548a6dd97f6c8b4d') in 0.044488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/TurtleShell/DefendHit_TurtleShell_Anim.fbx
+  artifactKey: Guid(f905c892a0744e17b0a91522be197c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/TurtleShell/DefendHit_TurtleShell_Anim.fbx using Guid(f905c892a0744e17b0a91522be197c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f61675b8fef4fd33b805dc189a24da') in 0.036947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/TurtleShell/GetHit_TurtleShell_Anim.fbx
+  artifactKey: Guid(ee7bb9ee4f2544619d907133f41c9fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/TurtleShell/GetHit_TurtleShell_Anim.fbx using Guid(ee7bb9ee4f2544619d907133f41c9fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca900c8be7271aa00384559dc82b0abd') in 0.049949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.157933 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/Die_Slime_Anim.fbx
+  artifactKey: Guid(35bb20ecf5de4fdd8dcd8e28e4053f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/Die_Slime_Anim.fbx using Guid(35bb20ecf5de4fdd8dcd8e28e4053f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a588d089f01c3321adb9bbb22c1b26') in 0.025143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/Dizzy_Slime_Anim.fbx
+  artifactKey: Guid(27743490eac74431aeb32e3ceedbeb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/Dizzy_Slime_Anim.fbx using Guid(27743490eac74431aeb32e3ceedbeb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45a27d69c29ba61d1555c05418ead91') in 0.021684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/Run_Slime_Anim.fbx
+  artifactKey: Guid(373e018c84074eaca27e94e2b90039bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/Run_Slime_Anim.fbx using Guid(373e018c84074eaca27e94e2b90039bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62dd4633f1b08c51d8f36f30e19e0d8') in 0.022903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/IdleNormal_Slime_Anim.fbx
+  artifactKey: Guid(a3010b0fc7044499ad34afdf5326f623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/IdleNormal_Slime_Anim.fbx using Guid(a3010b0fc7044499ad34afdf5326f623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a93f80752d7f96b8a432ce5cff51dc') in 0.023327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/SenseSomethingStart_Slime_Anim.fbx
+  artifactKey: Guid(52f55a0ad2124db592843132cd892ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/SenseSomethingStart_Slime_Anim.fbx using Guid(52f55a0ad2124db592843132cd892ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb9a30a62a956e622817cb420ebcb01') in 0.023478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/WalkBack_Slime_Anim.fbx
+  artifactKey: Guid(1707f5753277428e8aeacdb11004a50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Animations/Slime/WalkBack_Slime_Anim.fbx using Guid(1707f5753277428e8aeacdb11004a50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54f7956ff95a80f2b62ba5e8ca42bf8') in 0.020504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.406937 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Materials/Skybox_Mat.mat
+  artifactKey: Guid(0f3ba9a6813349ad806fa2aaaa9eb8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Materials/Skybox_Mat.mat using Guid(0f3ba9a6813349ad806fa2aaaa9eb8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084ac60036a17bea22020231bd379d00') in 0.022964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.522724 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Meshes/StageMesh.fbx
+  artifactKey: Guid(b81abefeba724bd89c755de785efd017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Meshes/StageMesh.fbx using Guid(b81abefeba724bd89c755de785efd017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f488cb6173fc1798d87863860ae9b835') in 0.014565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Meshes/TurtleShellPolyartMesh.fbx
+  artifactKey: Guid(942e6d5330e147fe84c5ab6ab2193ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Meshes/TurtleShellPolyartMesh.fbx using Guid(942e6d5330e147fe84c5ab6ab2193ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d268c69ac92881aaec6a10c2855d26') in 0.022121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.796724 seconds.
+  path: Assets/MapaAula/Level.prefab
+  artifactKey: Guid(3e2dc1f43d7b3d649ac055800f5fccc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapaAula/Level.prefab using Guid(3e2dc1f43d7b3d649ac055800f5fccc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5de8938cb662a8823196b2ad5a839f') in 0.247145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.055593 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3d5c9d2e2c64a7ce8d71c5a91c2fb8') in 0.093291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c3c00bde79784904db8b54dfdfab1d') in 0.029641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f10ae1aa6e5348f3e5b8c6659b40b96') in 0.055793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bd709abaca415c72f16bab2f7c8abb') in 0.019136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e85d55384b22641579099d0f1ce7e8') in 0.016567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8fe493d6d59a3f9b0935fc4aed1f39') in 0.076868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3741bc128b35266b13b54c9424ddfa03') in 0.267216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2214.289231 seconds.
+  path: Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Textures/Emission.png
+  artifactKey: Guid(fe62c1e740dc4f4c838033a4c0afc020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsPacket/RPG Monster DUO PBR Polyart/Textures/Emission.png using Guid(fe62c1e740dc4f4c838033a4c0afc020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e98620344a95a1a3921051ddc2a9320') in 0.044904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.563661 seconds.
+  path: Assets/MapaAula/MapaAula/ReflectionProbe-0.exr
+  artifactKey: Guid(44f3226cab45d9f4d909fee968d72320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapaAula/MapaAula/ReflectionProbe-0.exr using Guid(44f3226cab45d9f4d909fee968d72320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223d2f352293b5aded987036f0be4a1f') in 0.031812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.578115 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Achievements!/achiev_box_hover.png
+  artifactKey: Guid(658590fb8da7be2498520e4a4f1c160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Achievements!/achiev_box_hover.png using Guid(658590fb8da7be2498520e4a4f1c160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7d7cc2e4c025c9e7ef208221e6058f') in 0.032689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Achievements!/achiev_stat_que.png
+  artifactKey: Guid(daad0e87766d6624ea685b3a164a05bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Achievements!/achiev_stat_que.png using Guid(daad0e87766d6624ea685b3a164a05bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa96c67b8702d8c8c28c3b62ec317fb') in 0.029464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Achievements!/achiev_stat_fail.png
+  artifactKey: Guid(d26ab9699a412ec4e9944e09198b096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Achievements!/achiev_stat_fail.png using Guid(d26ab9699a412ec4e9944e09198b096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4238b578e3e45f669f6b20dc203152') in 0.021063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.996279 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/panel_start_slices.jpg
+  artifactKey: Guid(e61354e83de142f47bb77e16ce19c6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/panel_start_slices.jpg using Guid(e61354e83de142f47bb77e16ce19c6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf2f8bf616d5622a7eeeea73db32cba') in 0.183356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.178077 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_box_pressed.png
+  artifactKey: Guid(af3fac555af87b745a0258ee44962897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_box_pressed.png using Guid(af3fac555af87b745a0258ee44962897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a2eb8c812c93075de609c9d583ef92') in 0.054723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_big_pressed.png
+  artifactKey: Guid(546b7b5b01f1ffd41bac9f24e9bfada1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_big_pressed.png using Guid(546b7b5b01f1ffd41bac9f24e9bfada1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85c0303d722289bafe180f2f2f99e32') in 0.025212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/cursor_left.png
+  artifactKey: Guid(95efdda980552b14a820ba3e58165925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/cursor_left.png using Guid(95efdda980552b14a820ba3e58165925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bac5c8ac36e60262cb27047fa140a0') in 0.019180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_close.png
+  artifactKey: Guid(f0278260aa10dda4bad10811c398d60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_close.png using Guid(f0278260aa10dda4bad10811c398d60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b021fcb7259ce699484f5b4173bf601') in 0.017251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_stat_fail.png
+  artifactKey: Guid(c9c74906b7a7acf4787214462a1eb928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_stat_fail.png using Guid(c9c74906b7a7acf4787214462a1eb928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71930d3715dacd45c0e36a357437f9e8') in 0.015135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_+_pressed.png
+  artifactKey: Guid(ace0d5514960f8d4a9acbc0c868eaea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_+_pressed.png using Guid(ace0d5514960f8d4a9acbc0c868eaea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99018c3bab14f4c832fa018bb946cc75') in 0.018537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_info.png
+  artifactKey: Guid(fcffd57530feae348af8c4c1e106c90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_info.png using Guid(fcffd57530feae348af8c4c1e106c90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b3a857d2ac4c0278fdfc7b35b566cf') in 0.016611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_candy.png
+  artifactKey: Guid(a38fea631a1a0f24ea64ad6ac07c47da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_candy.png using Guid(a38fea631a1a0f24ea64ad6ac07c47da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8792344f87d69ac288c9f22686d92bd5') in 0.016431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_big.png
+  artifactKey: Guid(89baf4f0611f73b44b141d0544ada6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_big.png using Guid(89baf4f0611f73b44b141d0544ada6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c84837f8d7f8f2bb5f983ac95ffb5ce') in 0.018247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_small_pressed.png
+  artifactKey: Guid(bce18879e5e2b164299ed4585522b241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_small_pressed.png using Guid(bce18879e5e2b164299ed4585522b241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116bc02663ccb8f59f1afe69f43e17fd') in 0.018779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_play.png
+  artifactKey: Guid(5a0b6c4451afc3b439f87a25a7005c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_play.png using Guid(5a0b6c4451afc3b439f87a25a7005c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd746f95e902c2ba4a9c4e714d69345fd') in 0.019466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_stat_que.png
+  artifactKey: Guid(d5f27c5ceba823a46b38115b28740d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_stat_que.png using Guid(d5f27c5ceba823a46b38115b28740d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645819614d0405af53c18742770b3176') in 0.018279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_big.png
+  artifactKey: Guid(242fffb8377372b47895ec20f5a5ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_big.png using Guid(242fffb8377372b47895ec20f5a5ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82b3120d3a91562f4780eec405afe71') in 0.019481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_small_hover.png
+  artifactKey: Guid(942aa81d1f54ac146a6d17c968e799e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_small_hover.png using Guid(942aa81d1f54ac146a6d17c968e799e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8220a769d26a64b9d26cbcd14c7f1541') in 0.016764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_check.png
+  artifactKey: Guid(0f24b069e13a4e04bb0f1ed1c25f59cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_check.png using Guid(0f24b069e13a4e04bb0f1ed1c25f59cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbb30b7a8d34dfef4ca32c4d293751f') in 0.016960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/cursor_down.png
+  artifactKey: Guid(576513ceb35cd924483be3a85f6fd2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/cursor_down.png using Guid(576513ceb35cd924483be3a85f6fd2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba03f6466b6f51508f1484fca6077d03') in 0.018476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.715322 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_close.png
+  artifactKey: Guid(1b2fc6ed4c01f0149b05a1da1de7003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_close.png using Guid(1b2fc6ed4c01f0149b05a1da1de7003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b09e704ba45d37d2e6de0db1f70c049') in 0.026078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_twitter.png
+  artifactKey: Guid(e32a9a52583e31f4eaec0f9b86d80b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_twitter.png using Guid(e32a9a52583e31f4eaec0f9b86d80b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a7469794a7d9f4c3af3d367532f2d4') in 0.029498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_menu.png
+  artifactKey: Guid(e2e3508a5f78a13478d11608e46e2f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_menu.png using Guid(e2e3508a5f78a13478d11608e46e2f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee93e94a7aee7414b01ea654b2587b6') in 0.027485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_question.png
+  artifactKey: Guid(da93bfaf6314fca4a805281edd375d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_question.png using Guid(da93bfaf6314fca4a805281edd375d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1166f92801b60ff38e75047d4cd6ef84') in 0.019277 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
