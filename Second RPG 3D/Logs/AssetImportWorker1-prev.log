@@ -15,7 +15,7 @@ E:/_game/Second RPG 3D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55397
+56190
 Successfully changed project path to: E:/_game/Second RPG 3D
 E:/_game/Second RPG 3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/_game/Second RPG 3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18660] Host "[IP] 10.10.21.131 [Port] 0 [Flags] 2 [Guid] 1272640947 [EditorId] 1272640947 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25944] Host "[IP] 10.10.21.131 [Port] 0 [Flags] 2 [Guid] 947636680 [EditorId] 947636680 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18660] Host "[IP] 10.10.21.131 [Port] 0 [Flags] 2 [Guid] 1272640947 [EditorId] 1272640947 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25944] Host "[IP] 10.10.21.131 [Port] 0 [Flags] 2 [Guid] 947636680 [EditorId] 947636680 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 90.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path E:/New folder/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,213 +67,97 @@ Initialize mono
 Mono path[0] = 'E:/New folder/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'E:/New folder/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/New folder/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/New folder/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/New folder/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: E:/New folder/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002292 seconds.
+Registered in 0.002023 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 86.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.619 seconds
+- Completed reload, in  0.588 seconds
 Domain Reload Profiling:
-	ReloadAssembly (620ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (588ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (438ms)
-			LoadAssemblies (78ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (102ms)
+			SetupTypeCache (104ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (274ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (269ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
+				InitializePlatformSupportModulesInManaged (58ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
+				RefreshPlugins (88ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003396 seconds.
+Registered in 0.003822 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
+- Completed reload, in  1.341 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1162ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1342ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (124ms)
-		EndReloadAssembly (873ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1034ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
+			SetupTypeCache (303ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (466ms)
+			SetupLoadedEditorAssemblies (579ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (433ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3713 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 50 unused Assets / (1.3 MB). Loaded Objects now: 4169.
-Memory consumption went from 141.1 MB to 139.8 MB.
-Total: 4.203900 ms (FindLiveObjects: 0.305900 ms CreateObjectMapping: 0.134200 ms MarkObjects: 3.462700 ms  DeleteObjects: 0.300000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003508 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1257ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1009ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (538ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (413ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3664 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4184.
-Memory consumption went from 136.5 MB to 135.1 MB.
-Total: 4.179200 ms (FindLiveObjects: 0.266800 ms CreateObjectMapping: 0.113800 ms MarkObjects: 3.597400 ms  DeleteObjects: 0.199900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003753 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.111 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1112ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (909ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (509ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (405ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3664 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4199.
-Memory consumption went from 136.5 MB to 135.1 MB.
-Total: 4.148000 ms (FindLiveObjects: 0.350300 ms CreateObjectMapping: 0.124400 ms MarkObjects: 3.443300 ms  DeleteObjects: 0.228800 ms)
+Memory consumption went from 141.2 MB to 139.8 MB.
+Total: 5.789800 ms (FindLiveObjects: 0.302500 ms CreateObjectMapping: 0.180800 ms MarkObjects: 5.049200 ms  DeleteObjects: 0.256300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -287,7 +171,323 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 35340.922675 seconds.
-  path: Assets/Scenes/Gameplay_Profiles/PostProcessing Profile.asset
-  artifactKey: Guid(ac972f13a7fb23b43bf2e16ccfa0ff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gameplay_Profiles/PostProcessing Profile.asset using Guid(ac972f13a7fb23b43bf2e16ccfa0ff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086f30f3185c5ac23959bf38f356c271') in 0.060570 seconds 
+  Time since last request: 48899.830014 seconds.
+  path: Assets/HONETi/pngs/brown/meter_bar_holder_center-repeating_brown.png
+  artifactKey: Guid(cdd4a5ec1bc2df949b4107f77fe6aa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/brown/meter_bar_holder_center-repeating_brown.png using Guid(cdd4a5ec1bc2df949b4107f77fe6aa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ca795512bbede2a70a7c40113acfc7') in 0.081088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HONETi/pngs/brown/meter_text_background_brown.png
+  artifactKey: Guid(76d4c256ba4c61447bceab100d987661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/brown/meter_text_background_brown.png using Guid(76d4c256ba4c61447bceab100d987661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f173048e41d93d43bb21d8db3208b2e6') in 0.019343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HONETi/pngs/brown/meter_text_background_left_edge_brown.png
+  artifactKey: Guid(c32cd20976cc95740b19fa5a50a5085f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/brown/meter_text_background_left_edge_brown.png using Guid(c32cd20976cc95740b19fa5a50a5085f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82330d152f3e6f647e280b46510a71e6') in 0.012626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/pngs/brown/meter_bar_holder_left_edge_brown.png
+  artifactKey: Guid(acece4df3b6c0f94497b96cfbe522bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/brown/meter_bar_holder_left_edge_brown.png using Guid(acece4df3b6c0f94497b96cfbe522bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4bd2886466be916798d2f4c6cc3f1e') in 0.018834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HONETi/pngs/brown/meter_bar_holder_right_edge_brown.png
+  artifactKey: Guid(ae1f98d78fd880f4fa8a3f38bb5759b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/brown/meter_bar_holder_right_edge_brown.png using Guid(ae1f98d78fd880f4fa8a3f38bb5759b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa1a4cbc828bae4f192bb57020d13eb') in 0.015322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/pngs/brown/meter_text_background_center_repeating_brown.png
+  artifactKey: Guid(92f06433ab2601641bbc5eeb2cfcd17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/brown/meter_text_background_center_repeating_brown.png using Guid(92f06433ab2601641bbc5eeb2cfcd17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d28a2341ddc5905a5ce484b3f14ae3') in 0.015188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.686635 seconds.
+  path: Assets/HONETi/pngs/green/meter_bar_holder_center-repeating_green.png
+  artifactKey: Guid(73faa8533926e3e42aeb6342ccb63476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/green/meter_bar_holder_center-repeating_green.png using Guid(73faa8533926e3e42aeb6342ccb63476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36a46b3190df03e91bddc6c4de3d2b3') in 0.012531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HONETi/pngs/green/meter_text_background_center_repeating_green.png
+  artifactKey: Guid(3ce090ee8f60c8748a68732639d2d3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/green/meter_text_background_center_repeating_green.png using Guid(3ce090ee8f60c8748a68732639d2d3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e07c2d765938f94a813c00c6f468f8') in 0.011524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HONETi/pngs/green/meter_text_background_right_edge_green.png
+  artifactKey: Guid(8435dd6e4de397d4196045b178a22901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/green/meter_text_background_right_edge_green.png using Guid(8435dd6e4de397d4196045b178a22901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14625bdab9c86e3ebe4738e61c56a43f') in 0.013440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HONETi/pngs/green/meter_text_background_green.png
+  artifactKey: Guid(84c0afb4fd15ad748a6917a3a823eb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/green/meter_text_background_green.png using Guid(84c0afb4fd15ad748a6917a3a823eb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458c4a61eaee91d1931c2ddeef932963') in 0.012801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HONETi/pngs/green/meter_bar_holder_left_edge_green.png
+  artifactKey: Guid(58c5d41457b867240bc94e00a6549a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/green/meter_bar_holder_left_edge_green.png using Guid(58c5d41457b867240bc94e00a6549a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b233146e8d7be139703077f5b112905') in 0.012467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.469519 seconds.
+  path: Assets/HONETi/pngs/icons/magic.png
+  artifactKey: Guid(5ab6820b89b91cd41ba55d143c0e36a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/icons/magic.png using Guid(5ab6820b89b91cd41ba55d143c0e36a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfaf6a9b7e5736d15f655794508a83f') in 0.020123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HONETi/pngs/icons/timer.png
+  artifactKey: Guid(85dfe99d84db3eb4d98b3b9eec8710ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/icons/timer.png using Guid(85dfe99d84db3eb4d98b3b9eec8710ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfb4b8f6ae596e59875bb162bbbafc1') in 0.015639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HONETi/pngs/icons/power.png
+  artifactKey: Guid(44caa8a4e5f7d434c82a70c196d7c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/icons/power.png using Guid(44caa8a4e5f7d434c82a70c196d7c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca33b6a71875eaacf904fb30cee1062') in 0.017230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370530 seconds.
+  path: Assets/HONETi/pngs/pink/meter_bar_holder_center-repeating_pink.png
+  artifactKey: Guid(3cb779ba2ff45d34f99d6c7dd485a364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/pink/meter_bar_holder_center-repeating_pink.png using Guid(3cb779ba2ff45d34f99d6c7dd485a364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef9c6e21efb95f89e9ff25a615da7c2') in 0.011664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HONETi/pngs/pink/meter_bar_holder_right_edge_pink.png
+  artifactKey: Guid(a8fccef7b523ecc48b29813ea8d5f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/pink/meter_bar_holder_right_edge_pink.png using Guid(a8fccef7b523ecc48b29813ea8d5f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0ab993f356da44cb3c5c6d6f7634d5') in 0.015703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HONETi/pngs/pink/meter_text_background_left_edge_pink.png
+  artifactKey: Guid(dc6bcef7be96ba04ba3babc03d3b5d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/pink/meter_text_background_left_edge_pink.png using Guid(dc6bcef7be96ba04ba3babc03d3b5d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe799be800eaea1aa7d50fa6e5becff') in 0.011022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HONETi/pngs/pink/meter_text_background_pink.png
+  artifactKey: Guid(5b72c03e80ecb884083ba5bfc5a9112b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/pink/meter_text_background_pink.png using Guid(5b72c03e80ecb884083ba5bfc5a9112b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853773d6c3a33233c85e5917ffe83f88') in 0.012675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/pngs/pink/meter_text_background_center_repeating_pink.png
+  artifactKey: Guid(b63d1267f9c419141a48f7052ff1588a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/pink/meter_text_background_center_repeating_pink.png using Guid(b63d1267f9c419141a48f7052ff1588a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a294fe812f0c6a03b5814bcc4b42bf51') in 0.014266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.547007 seconds.
+  path: Assets/HONETi/pngs/purple/meter_bar_holder_center-repeating_purple.png
+  artifactKey: Guid(1c67f3099adcbdc449ef474acf0bea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/purple/meter_bar_holder_center-repeating_purple.png using Guid(1c67f3099adcbdc449ef474acf0bea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4026d47a5371a6935c46db1acfab243') in 0.017822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HONETi/pngs/purple/meter_text_background_right_edge_purple.png
+  artifactKey: Guid(bdd379721f83bf641b9b2836a0b7df12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/purple/meter_text_background_right_edge_purple.png using Guid(bdd379721f83bf641b9b2836a0b7df12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0697e7e5bd423c2a02bff1acc0bb42a1') in 0.013475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HONETi/pngs/purple/meter_bar_right_edge_purple.png
+  artifactKey: Guid(99d3c1313e2b7db44b35c8d50344fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/purple/meter_bar_right_edge_purple.png using Guid(99d3c1313e2b7db44b35c8d50344fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c483d6679b0b5ce733d78be64a17a0') in 0.014125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/pngs/purple/meter_text_background_center_repeating_purple.png
+  artifactKey: Guid(79e74381c63523e4fb7b8a77b738bec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/purple/meter_text_background_center_repeating_purple.png using Guid(79e74381c63523e4fb7b8a77b738bec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d78ae98d4fa84af814260c114e21aad') in 0.013780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/pngs/purple/meter_bar_holder_right_edge_purple.png
+  artifactKey: Guid(3320f7c9f44f1214aa433e0f5bef1264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/purple/meter_bar_holder_right_edge_purple.png using Guid(3320f7c9f44f1214aa433e0f5bef1264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169b5f93bcf81f22d63877d94f69b0f3') in 0.014689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377204 seconds.
+  path: Assets/HONETi/pngs/red/meter_bar_holder_center-repeating_red.png
+  artifactKey: Guid(442f0100081880e48b2d26221a8e83f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/red/meter_bar_holder_center-repeating_red.png using Guid(442f0100081880e48b2d26221a8e83f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f35a46fb225bf7778b43a5ded04b247') in 0.018460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HONETi/pngs/red/meter_bar_holder_left_edge_red.png
+  artifactKey: Guid(81f687e2e4d4f2b44bc5504698446659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/red/meter_bar_holder_left_edge_red.png using Guid(81f687e2e4d4f2b44bc5504698446659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8aca836368a723a4ab3842677f2b22') in 0.014339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/pngs/red/meter_icon_holder_red.png
+  artifactKey: Guid(e3aa3a9f2dd58444dba11258e1466868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/red/meter_icon_holder_red.png using Guid(e3aa3a9f2dd58444dba11258e1466868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c23c6d7416532702d0ddd95567843c') in 0.013562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006954 seconds.
+  path: Assets/HONETi/pngs/red/meter_bar_holder_right_edge_red.png
+  artifactKey: Guid(4e44cb7c26adc344eb2fdc9954e2c272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/red/meter_bar_holder_right_edge_red.png using Guid(4e44cb7c26adc344eb2fdc9954e2c272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56efef9d18fffab20ef16d0c6dd1ce0') in 0.013707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HONETi/pngs/red/meter_text_background_red.png
+  artifactKey: Guid(6c1ea9fa381dd254da299e5d5124d2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/red/meter_text_background_red.png using Guid(6c1ea9fa381dd254da299e5d5124d2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480ec835e67110456440b93ae23e022d') in 0.014380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.882634 seconds.
+  path: Assets/HONETi/pngs/yellow/meter_bar_holder_left_edge_yellow.png
+  artifactKey: Guid(1d61f0bd7bec6774faaaf7790c476c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/yellow/meter_bar_holder_left_edge_yellow.png using Guid(1d61f0bd7bec6774faaaf7790c476c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406360ff0231aa011a0440f84e147898') in 0.015246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/pngs/yellow/meter_icon_holder_yellow.png
+  artifactKey: Guid(d04eb2496221d9a4fa94611e56f0ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/yellow/meter_icon_holder_yellow.png using Guid(d04eb2496221d9a4fa94611e56f0ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a679b0829648727a392b177d4a7081') in 0.015453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/pngs/yellow/meter_bar_left_edge_yellow.png
+  artifactKey: Guid(59ccd8064ee57184886648393dc9dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/yellow/meter_bar_left_edge_yellow.png using Guid(59ccd8064ee57184886648393dc9dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbecc1af485426029e2646d03835ff4c') in 0.014553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HONETi/pngs/yellow/meter_text_background_center_repeating_yellow.png
+  artifactKey: Guid(aef7611555c5ab14ba6209006fff7d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/yellow/meter_text_background_center_repeating_yellow.png using Guid(aef7611555c5ab14ba6209006fff7d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23456229bdb3909a1b5c8f18d8861f22') in 0.012598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HONETi/pngs/yellow/meter_bar_holder_right_edge_yellow.png
+  artifactKey: Guid(b413e17d91c6f2844a18476cf3beabd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/pngs/yellow/meter_bar_holder_right_edge_yellow.png using Guid(b413e17d91c6f2844a18476cf3beabd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cf42182a08de49cf4f4613d60653c5') in 0.012157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.436102 seconds.
+  path: Assets/HONETi/Export_256/AxeDouble.png
+  artifactKey: Guid(ef1a273e69603de4684b288f7330eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/AxeDouble.png using Guid(ef1a273e69603de4684b288f7330eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4713f9c068d38d33c632a56b0cb83838') in 0.019676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/Export_256/ShieldWood.png
+  artifactKey: Guid(d73bf0ccabe1e614cae3f1ddeff3fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/ShieldWood.png using Guid(d73bf0ccabe1e614cae3f1ddeff3fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a423e6d73c473104341db52343bdf3') in 0.022268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HONETi/Export_256/BowLoaded.png
+  artifactKey: Guid(ae0f802143006784580d04e9cacc60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/BowLoaded.png using Guid(ae0f802143006784580d04e9cacc60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a762e9e78c623a453691681ac091d4a2') in 0.020712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HONETi/Export_256/HeatFull.png
+  artifactKey: Guid(09bed296439f90741afc79d3a1036efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/HeatFull.png using Guid(09bed296439f90741afc79d3a1036efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b549b1c9c937924d7d61ea7ba27465') in 0.017768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HONETi/Export_256/TomeGold.png
+  artifactKey: Guid(a84b677f9f63d984a800b4008301185e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/TomeGold.png using Guid(a84b677f9f63d984a800b4008301185e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a011b4f4705e4a8eca95a6b9e504b9b4') in 0.020796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/Export_256/Hammer.png
+  artifactKey: Guid(7660563ef60ea94498d6ddee8886efd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/Hammer.png using Guid(7660563ef60ea94498d6ddee8886efd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c6c6b453458733791046d800563540') in 0.016495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HONETi/Export_256/Dagger.png
+  artifactKey: Guid(c344bbc79653221428c3278b34083ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/Dagger.png using Guid(c344bbc79653221428c3278b34083ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30cfae2633871a5851d7b7d1c0274eb') in 0.020380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HONETi/Export_256/Tools.png
+  artifactKey: Guid(f9089aff371cc5949a6fd12a6faa2fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/Tools.png using Guid(f9089aff371cc5949a6fd12a6faa2fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de5e94596e6435526fed05bd0338572') in 0.018823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/Export_256/SpearT2.png
+  artifactKey: Guid(04143bc63221e4c43b50b072c734b769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/SpearT2.png using Guid(04143bc63221e4c43b50b072c734b769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302332ce546ac4a5262e7d9e860a2dd4') in 0.017911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HONETi/Export_256/TomeBlue.png
+  artifactKey: Guid(e387bc6e2fda2ee4fbd35106cfd4f00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/TomeBlue.png using Guid(e387bc6e2fda2ee4fbd35106cfd4f00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67ea7d15cb7e86d292fa5a331331735') in 0.024425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HONETi/Export_256/HeartContainer.png
+  artifactKey: Guid(c41b5e7ae0508dd459a9dcef8dfdd27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/HeartContainer.png using Guid(c41b5e7ae0508dd459a9dcef8dfdd27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e58d3b5e14bc696bf6d079c556ca65') in 0.020983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/Export_256/Coin.png
+  artifactKey: Guid(c4b298519cddb1d46af4f9f89006e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/Coin.png using Guid(c4b298519cddb1d46af4f9f89006e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a67285b9fac92e474778f7640e142b') in 0.020138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HONETi/Export_256/DocumentEmpty.png
+  artifactKey: Guid(2fc440866dda0e24a8683ff27372418c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/DocumentEmpty.png using Guid(2fc440866dda0e24a8683ff27372418c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37d7f252ef6017d61f9a33489acbeba') in 0.016598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HONETi/Export_256/Wand.png
+  artifactKey: Guid(40936e498bbfcfc47bbda632dad8a63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/Wand.png using Guid(40936e498bbfcfc47bbda632dad8a63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec98f1d43119ba56dfd6d98c101257a') in 0.015666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/Export_256/Shield.png
+  artifactKey: Guid(8c09996af2c6d394c9b5d2da28f29178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/Shield.png using Guid(8c09996af2c6d394c9b5d2da28f29178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c6ab7e7162a0f08e6bb1edb20230fd') in 0.015053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/Export_256/HammerTool.png
+  artifactKey: Guid(c40fae9c1342fce4bba46b29dec95cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/HammerTool.png using Guid(c40fae9c1342fce4bba46b29dec95cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e787bc3f8118879f844c31cd35bca00e') in 0.017070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HONETi/Export_256/ShieldT2.png
+  artifactKey: Guid(fb47d3b5eaa7a11448b6489fa6946889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/ShieldT2.png using Guid(fb47d3b5eaa7a11448b6489fa6946889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3d7bab7c3e183e92959f03de62b912') in 0.017083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HONETi/Export_256/X.png
+  artifactKey: Guid(dc358ce88db438642822991673c51b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/X.png using Guid(dc358ce88db438642822991673c51b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ce7d9c86be737323889e6835d7d0b4') in 0.015188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/HONETi/Export_256/HeartWithContainer.png
+  artifactKey: Guid(975cbc5b9f47a7e408c2dcc43e7b3ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_256/HeartWithContainer.png using Guid(975cbc5b9f47a7e408c2dcc43e7b3ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dba7880b925fe84ddfa73ef7b5b5a81') in 0.017323 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

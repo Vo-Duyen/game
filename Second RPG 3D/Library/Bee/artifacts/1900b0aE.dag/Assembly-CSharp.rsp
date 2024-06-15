@@ -360,6 +360,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs"
 "Assets/MapaAula/Grass.cs"
+"Assets/MessageScript.cs"
 "Assets/Scripts/attackdone.cs"
 "Assets/Scripts/Cursors.cs"
 "Assets/Scripts/GameManager.cs"

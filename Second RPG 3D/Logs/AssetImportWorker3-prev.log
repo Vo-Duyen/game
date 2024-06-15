@@ -1,0 +1,707 @@
+Using pre-set license
+Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 24277 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\New folder\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/_game/Second RPG 3D
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+56190
+Successfully changed project path to: E:/_game/Second RPG 3D
+E:/_game/Second RPG 3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8992] Host "[IP] 10.10.21.131 [Port] 0 [Flags] 2 [Guid] 3647161373 [EditorId] 3647161373 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8992] Host "[IP] 10.10.21.131 [Port] 0 [Flags] 2 [Guid] 3647161373 [EditorId] 3647161373 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 104.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path E:/New folder/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/_game/Second RPG 3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'E:/New folder/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'E:/New folder/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/New folder/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/New folder/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/New folder/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: E:/New folder/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001944 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 70.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (503ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (368ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (83ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003191 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1066ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (783ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3713 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (1.3 MB). Loaded Objects now: 4169.
+Memory consumption went from 141.2 MB to 139.8 MB.
+Total: 4.172500 ms (FindLiveObjects: 0.255700 ms CreateObjectMapping: 0.096300 ms MarkObjects: 3.610300 ms  DeleteObjects: 0.209200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49144.959402 seconds.
+  path: Assets/HONETi/Export_64/Hammer.png
+  artifactKey: Guid(f7d48c89de8b9c040a3c10fd62834094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Hammer.png using Guid(f7d48c89de8b9c040a3c10fd62834094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdf1e3b92c66f127bd3f994811d0ddc') in 0.072215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HONETi/Export_64/ShieldWood.png
+  artifactKey: Guid(251783b8f4366204c837e8f46f8718dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/ShieldWood.png using Guid(251783b8f4366204c837e8f46f8718dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643d181ed11fa93308b94babd1f0a92e') in 0.015280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/Export_64/Spear.png
+  artifactKey: Guid(b59fe26a6e453d941a160921ac27b667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Spear.png using Guid(b59fe26a6e453d941a160921ac27b667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caedc4aee859a5ff56330b5c8ade220') in 0.012195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HONETi/Export_64/HeartContainer.png
+  artifactKey: Guid(96b0a7780b04ac84e9811b81aad12f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/HeartContainer.png using Guid(96b0a7780b04ac84e9811b81aad12f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a808a1a9172c5657f56d8a3cb702079') in 0.012463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HONETi/Export_64/Map.png
+  artifactKey: Guid(4cd4835d10295c949ab67073a9eee318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Map.png using Guid(4cd4835d10295c949ab67073a9eee318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d4d370de6c01a0da7b3bdb19f541af') in 0.013824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HONETi/Export_64/TomeBlue.png
+  artifactKey: Guid(160329b1483c87a4a8976399436e0d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/TomeBlue.png using Guid(160329b1483c87a4a8976399436e0d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0290a10dfa044fba30932b668309bc') in 0.014664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HONETi/Export_64/Wand.png
+  artifactKey: Guid(a1274de367b8c71449f4ed028142943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Wand.png using Guid(a1274de367b8c71449f4ed028142943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4697379aa366caf35ae89b6260ef812') in 0.016381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/Export_64/PlateArmor.png
+  artifactKey: Guid(1047f2f9181b43d47b207b03ef226a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/PlateArmor.png using Guid(1047f2f9181b43d47b207b03ef226a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0362427e2f4033ab64523e83c12fae01') in 0.012744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/Export_64/HammerTool.png
+  artifactKey: Guid(56e0609d242ae614ab255643e9a95ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/HammerTool.png using Guid(56e0609d242ae614ab255643e9a95ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2321f65a3f41c2b2ab4454e44dd1ab61') in 0.013082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HONETi/Export_64/Wrench.png
+  artifactKey: Guid(95294bf24d2f5d945b4576df908df37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Wrench.png using Guid(95294bf24d2f5d945b4576df908df37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1124ec2118c4e3f6a7305c04f755e6f') in 0.014000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HONETi/Export_64/X.png
+  artifactKey: Guid(45bf81149d20e284ea31659dda999a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/X.png using Guid(45bf81149d20e284ea31659dda999a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36d1c4fb237164fa791112ce7c955e8') in 0.013711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HONETi/Export_64/TomeGreen.png
+  artifactKey: Guid(c669bc7ef7b64de4e862162d70fb799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/TomeGreen.png using Guid(c669bc7ef7b64de4e862162d70fb799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061fc0fe91d4ae6c22a6271bfb07ea33') in 0.013488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.962685 seconds.
+  path: Assets/HONETi/Export_64/AxeDoubleT2.png
+  artifactKey: Guid(f822c65bdfb68a545a2ec8428a79083a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/AxeDoubleT2.png using Guid(f822c65bdfb68a545a2ec8428a79083a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a47c5c75a53f23a40e07ed76349b27c') in 0.013382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/Export_64/Bow.png
+  artifactKey: Guid(dedc0280ec5d66d4596273a5a5d61e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Bow.png using Guid(dedc0280ec5d66d4596273a5a5d61e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b178db024214d4cf27bb2cb183d3a83e') in 0.015724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HONETi/Export_64/BackpackOpen.png
+  artifactKey: Guid(1dec894f5b371414a8addc5b1cac87dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/BackpackOpen.png using Guid(1dec894f5b371414a8addc5b1cac87dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdbe942a5d82ce6fbb0b833a4a356bb') in 0.012303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HONETi/Export_64/Dagger.png
+  artifactKey: Guid(155062be479b8f54d9cc7a1ed77d9dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Dagger.png using Guid(155062be479b8f54d9cc7a1ed77d9dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a2327f306c131766085f1c72305e41') in 0.014604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HONETi/Export_64/AxeSingleT2.png
+  artifactKey: Guid(9516e6f150a54564eb355b9cec86e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/AxeSingleT2.png using Guid(9516e6f150a54564eb355b9cec86e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9db39a2cedbef41e0350a4585aaa2db') in 0.014405 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004955 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (975ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (419ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4190.
+Memory consumption went from 136.5 MB to 135.2 MB.
+Total: 5.124000 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.153300 ms MarkObjects: 4.371100 ms  DeleteObjects: 0.245500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1168ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (954ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (424ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4205.
+Memory consumption went from 136.5 MB to 135.2 MB.
+Total: 4.247000 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.112500 ms MarkObjects: 3.634000 ms  DeleteObjects: 0.204400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002887 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (968ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (556ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4220.
+Memory consumption went from 136.6 MB to 135.2 MB.
+Total: 3.968800 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.119700 ms MarkObjects: 3.405800 ms  DeleteObjects: 0.170800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004151 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\_game\Second RPG 3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1193ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (570ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (460ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4235.
+Memory consumption went from 136.6 MB to 135.3 MB.
+Total: 4.905100 ms (FindLiveObjects: 0.384100 ms CreateObjectMapping: 0.218500 ms MarkObjects: 3.870900 ms  DeleteObjects: 0.430300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 832.586754 seconds.
+  path: Assets/HONETi/Export_64/AxeDouble.png
+  artifactKey: Guid(f711cef03dd157c458d0fd2418b67196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/AxeDouble.png using Guid(f711cef03dd157c458d0fd2418b67196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e102579c943d04c4d0a645fde05cf3b7') in 0.090698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/HONETi/Export_64/SwordT2.png
+  artifactKey: Guid(10078453b236a1b4cb8733149ddd2b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/SwordT2.png using Guid(10078453b236a1b4cb8733149ddd2b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b594e47c3eda6d43bca388366e5c70') in 0.028016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HONETi/Export_64/AxeDoubleT2.png
+  artifactKey: Guid(f822c65bdfb68a545a2ec8428a79083a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/AxeDoubleT2.png using Guid(f822c65bdfb68a545a2ec8428a79083a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edb23a462c023a32dd51418a81c9d6d') in 0.021172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HONETi/Export_64/AxeSingle.png
+  artifactKey: Guid(000807417df1605408de1589e3cb2332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/AxeSingle.png using Guid(000807417df1605408de1589e3cb2332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c198f467055309eaed785b275fdba1e') in 0.019672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/Export_64/ShieldWood.png
+  artifactKey: Guid(251783b8f4366204c837e8f46f8718dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/ShieldWood.png using Guid(251783b8f4366204c837e8f46f8718dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f3566d60b95474d055dbe3ac24db01') in 0.023718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/Export_64/BackpackOpen.png
+  artifactKey: Guid(1dec894f5b371414a8addc5b1cac87dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/BackpackOpen.png using Guid(1dec894f5b371414a8addc5b1cac87dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82b85fcb81c339d005b4224620af233') in 0.020112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/Export_64/Spear.png
+  artifactKey: Guid(b59fe26a6e453d941a160921ac27b667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Spear.png using Guid(b59fe26a6e453d941a160921ac27b667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6af4dde1783471a8f4c8ce18b21c22e') in 0.016404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HONETi/Export_64/HeartContainer.png
+  artifactKey: Guid(96b0a7780b04ac84e9811b81aad12f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/HeartContainer.png using Guid(96b0a7780b04ac84e9811b81aad12f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6fe6a7f052a8856d7f7f8a682c0b32') in 0.018565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/HONETi/Export_64/Backpack1.png
+  artifactKey: Guid(65dd52f616c6f8e43821da885f8bfbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Backpack1.png using Guid(65dd52f616c6f8e43821da885f8bfbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7774ad0cebbce0a071b779e5a3d27645') in 0.021245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/Export_64/TomeGold.png
+  artifactKey: Guid(28dfb83eb9d45e949877c3a2a1bc019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/TomeGold.png using Guid(28dfb83eb9d45e949877c3a2a1bc019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1a9cec78d25a9964c10080f78f061b') in 0.016654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/Export_64/DocumentEmpty.png
+  artifactKey: Guid(d892abb6a8916a64f8ddea7c6dfff7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/DocumentEmpty.png using Guid(d892abb6a8916a64f8ddea7c6dfff7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc26c2cb67444e13b7bd2798125f40fb') in 0.016796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HONETi/Export_64/TomeBlue.png
+  artifactKey: Guid(160329b1483c87a4a8976399436e0d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/TomeBlue.png using Guid(160329b1483c87a4a8976399436e0d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e232e9c5cb2be4a8716864597f52d48') in 0.017887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/HONETi/Export_64/Tools.png
+  artifactKey: Guid(1d7ed7cda21cf8b42abc0431ed6aaaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Tools.png using Guid(1d7ed7cda21cf8b42abc0431ed6aaaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02327cc82d2e03dadfc95396215c108f') in 0.017496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HONETi/Export_64/Sword.png
+  artifactKey: Guid(49cef48b90f7e38429b4700873abc0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Sword.png using Guid(49cef48b90f7e38429b4700873abc0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ce16f0d2f8e20ad971adb552e1851f') in 0.016211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/Export_64/HammerTool.png
+  artifactKey: Guid(56e0609d242ae614ab255643e9a95ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/HammerTool.png using Guid(56e0609d242ae614ab255643e9a95ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ef3d7a81b304e0fcdfa3bb5ad3ce57') in 0.017516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/Export_64/Tome.png
+  artifactKey: Guid(05e7a28306266a74aaf71e0a9af6f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Tome.png using Guid(05e7a28306266a74aaf71e0a9af6f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae1eea9190966cd41aed7ef5386ccf6') in 0.015856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HONETi/Export_64/AxeSingleT2.png
+  artifactKey: Guid(9516e6f150a54564eb355b9cec86e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/AxeSingleT2.png using Guid(9516e6f150a54564eb355b9cec86e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1192d6097826195bd883cf06e3ab575a') in 0.017483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/Export_64/Wrench.png
+  artifactKey: Guid(95294bf24d2f5d945b4576df908df37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Wrench.png using Guid(95294bf24d2f5d945b4576df908df37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb5bb7ce6a351f08e6b964e1ed12acc') in 0.016237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/HONETi/Export_64/BowLoaded.png
+  artifactKey: Guid(efd0913a21438df4a934785c132d3230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/BowLoaded.png using Guid(efd0913a21438df4a934785c132d3230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9defb9e395d4762e94aa1bbaf675e53f') in 0.016437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/Export_64/ShieldT2.png
+  artifactKey: Guid(b35a978b9b02bfe41aef3f6557ceda76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/ShieldT2.png using Guid(b35a978b9b02bfe41aef3f6557ceda76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f2098921b8e93e7291ed4388d59a34') in 0.015995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.492116 seconds.
+  path: Assets/HONETi/Export_64/Hammer.png
+  artifactKey: Guid(f7d48c89de8b9c040a3c10fd62834094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Hammer.png using Guid(f7d48c89de8b9c040a3c10fd62834094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e31c68b1760f6d6646ba29dfebe1870') in 0.022849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/HONETi/Export_64/SpearT2.png
+  artifactKey: Guid(23f3d2a5a8883804cab047b8ada87ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/SpearT2.png using Guid(23f3d2a5a8883804cab047b8ada87ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9d92faa05be1e3628cc0ca6bb84415') in 0.017204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HONETi/Export_64/HeartHalf.png
+  artifactKey: Guid(c3a118208a205f64c83ca2e2aadd5d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/HeartHalf.png using Guid(c3a118208a205f64c83ca2e2aadd5d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d7fb39115a20aa20f51087fe59ca57') in 0.017608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HONETi/Export_64/Spear.png
+  artifactKey: Guid(b59fe26a6e453d941a160921ac27b667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Spear.png using Guid(b59fe26a6e453d941a160921ac27b667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0160aa8369a6f98aaa11af2ad2f03e2') in 0.021288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/Export_64/Map.png
+  artifactKey: Guid(4cd4835d10295c949ab67073a9eee318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Map.png using Guid(4cd4835d10295c949ab67073a9eee318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9895ad769b94045966cb73f387c4a9a') in 0.022489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/Export_64/TomeBlue.png
+  artifactKey: Guid(160329b1483c87a4a8976399436e0d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/TomeBlue.png using Guid(160329b1483c87a4a8976399436e0d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee32bf64f1958cb5e22782c528873d01') in 0.021662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/Export_64/PlateArmor.png
+  artifactKey: Guid(1047f2f9181b43d47b207b03ef226a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/PlateArmor.png using Guid(1047f2f9181b43d47b207b03ef226a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0016c30a65096812016b5e1952829986') in 0.018201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HONETi/Export_64/Tome.png
+  artifactKey: Guid(05e7a28306266a74aaf71e0a9af6f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Tome.png using Guid(05e7a28306266a74aaf71e0a9af6f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadc8e58ad929d8e84acdf176f19735c') in 0.015516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/Export_64/TomeGreen.png
+  artifactKey: Guid(c669bc7ef7b64de4e862162d70fb799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/TomeGreen.png using Guid(c669bc7ef7b64de4e862162d70fb799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f19c1f28a3adae58e32b531b2a9509') in 0.013532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.680194 seconds.
+  path: Assets/HONETi/Export_64/AxeDouble.png
+  artifactKey: Guid(f711cef03dd157c458d0fd2418b67196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/AxeDouble.png using Guid(f711cef03dd157c458d0fd2418b67196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba725711b0d3a622da2225a676f9e864') in 0.011108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/Export_64/Bow.png
+  artifactKey: Guid(dedc0280ec5d66d4596273a5a5d61e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Bow.png using Guid(dedc0280ec5d66d4596273a5a5d61e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0555ee3de212e39f85a697136b8656f') in 0.009160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/Export_64/Backpack1.png
+  artifactKey: Guid(65dd52f616c6f8e43821da885f8bfbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Backpack1.png using Guid(65dd52f616c6f8e43821da885f8bfbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833d816651afecf8de754eb69e94b800') in 0.013199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/Export_64/Coin.png
+  artifactKey: Guid(4b42ae4bdd7ab044095c10bbc45eb010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/Export_64/Coin.png using Guid(4b42ae4bdd7ab044095c10bbc45eb010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551ba27197e6d64ce748511054b99e0c') in 0.006871 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
