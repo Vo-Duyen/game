@@ -53,6 +53,8 @@ public class SlimeAI : MonoBehaviour
         }
         amin.SetBool("isWalk", isWalk);
         amin.SetBool("isAlert", isAlert);
+
+        sliderHealtBar.transform.forward = Camera.main.transform.forward * -1;
     }
     IEnumerator timeIsDie()
     {

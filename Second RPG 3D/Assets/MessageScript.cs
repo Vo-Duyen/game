@@ -25,16 +25,16 @@ public class MessageScript : MonoBehaviour
         switch (buoc)
         {
             case 0:
-                buttonText.text = "1";
+                buttonText.text = "Nh?n T ?? b? qua huóng d?n";
                 break;
             case 1:
-                buttonText.text = "2";
+                buttonText.text = "?? di chuy?n s? d?ng W , A , S , D ";
                 break;
             case 2:
-                buttonText.text = "3";
+                buttonText.text = " Dùng Q ?? ??i góc nhìn ";
                 break;
             case 3:
-                buttonText.text = "4";
+                buttonText.text = " tiêu di?t quái v?t và sinh t?n ";
                 break;
             default:
                 menu.gameObject.SetActive(false);
